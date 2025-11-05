@@ -4,7 +4,6 @@ import 'combats_screen.dart';
 import 'deposit_screen.dart';
 import 'profile_screen.dart';
 import 'notifications_screen.dart';
-import 'combats_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
   const BottomNavBar({super.key});
@@ -17,7 +16,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   int _currentIndex = 0;
   final List<Widget> _screens = const [
     CombatsScreen(),
-    CombatsScreen(), // Placeholder for Bets
+    CombatsScreen(), // Placeholder for Paris
     DepositScreen(),
     ProfileScreen(),
     NotificationsScreen(),
